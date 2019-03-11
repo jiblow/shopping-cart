@@ -1,0 +1,19 @@
+.layout-1{
+    border:1px solid;
+    border-color: gray;
+    margin: 1px;
+    height: auto;
+    width: auto;
+}
+.add-to-cart{
+    position:absolute;
+    padding: 5px;
+    bottom: 8px;
+    top: 190px;
+    right: 1px;
+    float:right;
+}
+
+.left-float{
+    float: left;
+}

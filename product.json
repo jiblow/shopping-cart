@@ -1,0 +1,21 @@
+
+ {
+    "product_1": {
+        "id": "0001",
+        "name":"firestick_gen_1",
+        "price": "$ 25.99",
+        "discription": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto"
+    },
+        
+    "product_2": {
+        "id": "0002",
+        "name": "echo_1",
+        "discription": "est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis qui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    
+    "product_3":{
+        "id": "0003",
+        "name": "firestick_gen_2",
+        "discription": "et iusto sed quo iure voluptatem occaecati omnis eligendi aut ad voluptatem doloribus vel accusantium quis pariatur molestiae porro eius odio et labore et velit aut"
+    }
+}

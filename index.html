@@ -28,54 +28,41 @@
                         <span class="cart glyphicon glyphicon-shopping-cart"></span></a>
                     </a>
                     <ul class="dropdown-menu" id="myList">
-                   
+
                     </ul>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
-        <div id="header"></div>
-        <div class="row">
-            <div class="col-sm-3 layout-1">
-                
-                <div id="output" ></div>
-                
-                <span class="add-to-cart">
-                    <button type="button" class="btn btn-primary  btn-xs product" onclick="addList()">Add to Cart</button>
-                </span>
+        <div class="grid-header">
+            <div class="header">
+                    <form class="navbar-form navbar-left central-search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search" name="search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
             </div>
-            <div class="col-sm-3 layout-1">
-                <img src="/img/echo_1.jpg">
-                <span class="add-to-cart">
-                    <button type="button" class="btn btn-primary  btn-xs product">Add to Cart</button>
-                </span> 
-            </div>
-            <div class="col-sm-3 layout-1">
-                <img src="/img/firestick_1.jpg">
-                <span class="add-to-cart">
-                    <button type="button" class="btn btn-primary  btn-xs product">Add to Cart</button>
-                </span>
-            </div>
-            <div class="col-sm-3 layout-1">
-                <img src="/img/firestick_1.jpg">
-                <span class="add-to-cart">
-                    <button type="button" class="btn btn-primary  btn-xs">Add to Cart</button>
-                </span>
-            </div>
-                <div class="col-sm-3 layout-1">
-                    <img src="/img/firestick_1.jpg">
-                    <span class="add-to-cart">
-                        <button type="button" class="btn btn-primary  btn-xs">Add to Cart</button>
-                    </span>
-                </div>
-                    <div class="col-sm-3 layout-1">
-                        <img src="/img/firestick_1.jpg">
-                        <span class="add-to-cart">
-                            <button type="button" class="btn btn-primary  btn-xs">Add to Cart</button>
-                        </span>
-                    </div>
         </div>
+        <div class="grid-content">
+            <div class="grid-left">
+                <p>Left side</p>
+            </div>
+            <div class="grid-main">
+                <p>main content</p>
+            </div>
+            <div class="grid-right">
+                <p>right side</p>
+            </div>
+        </div>
+        <div class="grid-footer">
+            <div class="footer">
+                <p> footer</p>
+            </div>
+
+        </div>
+    </div>
     </div>
     <script src="/css/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="css/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

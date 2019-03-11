@@ -1,3 +1,32 @@
+.grid-header{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.header{
+    text-align: center;
+}
+.grid-left{
+    text-align: center;
+}
+.grid-main{
+    text-align: center;
+}
+.grid-right{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
 .layout-1{
     border:1px solid;
     border-color: gray;
@@ -13,7 +42,9 @@
     right: 1px;
     float:right;
 }
-
+.central-search{
+    margin-left: 100px;
+}
 .left-float{
     float: left;
 }
